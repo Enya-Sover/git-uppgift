@@ -17,7 +17,7 @@ const Miniräknare = ()=>{
         setNumbers(addedNumbers)
     }
     const divideFuncition = ()=>{
-        const addedNumbers = parseInt(num1) / parseInt(num2)
+        const addedNumbers = parseInt(num1) / parseInt(num2) 
         setNumbers(addedNumbers)
     }
     const subtractFunction = ()=>{
