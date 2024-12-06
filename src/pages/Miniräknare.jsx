@@ -7,11 +7,6 @@ const Miniräknare = ()=>{
     const [numbers, setNumbers] = useState(0)
     const [sign, setSign] = useState(null)
 
-    let [newNumber1, setNewNumber1] = useState(null)
-    let [newNumber2, setNewNumber2] = useState(null)
-
-    let [calcNumber, setCalcNumber] = useState(null)
-
     const addFunction = ()=>{
         const addedNumbers = parseInt(num1) + parseInt(num2)
         setNumbers(addedNumbers)
@@ -23,7 +18,8 @@ const Miniräknare = ()=>{
     const subtractFunction = ()=>{
         const addedNumbers = parseInt(num1) - parseInt(num2)
         setNumbers(addedNumbers)
-    }
+    } 
+    
     const multiplyFunction = ()=>{
         const addedNumbers = parseInt(num1) * parseInt(num2)
         setNumbers(addedNumbers)
