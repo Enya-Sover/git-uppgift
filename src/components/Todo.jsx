@@ -38,7 +38,7 @@ let Todo = () => {
       <button onClick={addTodo}>Add Todo</button>
 
       {todo.map((todos, i) => (
-        <div key={i} style={{ display: "flex", alignItems: "center" }}>
+        <div key={i}>
           <input
             type="checkbox"
             checked={completed.includes(i)}
@@ -53,7 +53,7 @@ let Todo = () => {
           >
             {todos}
           </span>
-          <button onClick={() => removeTodo(i)} style={{ marginLeft: "10px" }}>
+          <button onClick={() => removeTodo(i)}>
             Remove
           </button>
         </div>
@@ -63,4 +63,3 @@ let Todo = () => {
 }
 
 export default Todo;
-
