@@ -26,7 +26,7 @@ const Miniräknare = ()=>{
     }
     
     return(<>   
-    
+    <h1>Matematik</h1>
     <input type="text" placeholder="Siffra" onChange={(e)=> setNum1(e.target.value)}/>
     <input type="text" placeholder="Siffra" onChange={(e)=> setNum2(e.target.value)}/>
     <button onClick={addFunction}>Add numbers</button>

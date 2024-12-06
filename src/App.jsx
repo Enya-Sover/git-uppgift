@@ -6,9 +6,11 @@ import Miniräknare from "./pages/Miniräknare";
 function App() {
   return (
     <>
-      <UserList />
-      <Todo />
       <h1>Välkommen till grabbarnas lek</h1>
+      <UserList />
+      <hr />
+      <Todo />
+      <hr />
       <Miniräknare />
     </>
   );
