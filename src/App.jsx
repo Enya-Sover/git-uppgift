@@ -9,6 +9,7 @@ function App() {
     <>
     <h1>Välkommen till grabbarnas lek</h1>
     <Miniräknare/>
+    
     </>
   )
 }
